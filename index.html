@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Name Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <meta charset="utf-8"/>
+</head>
+
+<body onload="setup()">
+
+  <div class="flex-container">
+
+    <div>
+      <span class="label">Names to look for</span class="label"><br>
+      <span class="sublabel">One name per line</span><br>
+      <textarea id="InputNames"></textarea>
+    </div>
+
+    <div>
+      <span class="label">List with all names</span class="label"><br>
+      <span class="sublabel">One name per line</span><br>
+      <textarea id="InputList"></textarea>
+    </div>
+
+  </div>
+
+  
+
+  <button id='testButton' onclick='test()'>Cycle Demos</button>
+  <br><br>
+  <span class="label">Name we're looking for → Found Name → Confidence</span class="label"><br>
+  <div id="results"></div>
+
+  <!-- Libs -->
+  <script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+
+  <!-- Core -->
+  <script src='core.js' charset="utf-8"></script>
+  <script src='compareWithGoodConfidence.js' charset="utf-8"></script>
+  <script src='compareWithMediumConfidence.js' charset="utf-8"></script>
+  <script src='common.js' charset="utf-8"></script>
+
+</body>

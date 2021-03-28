@@ -1,0 +1,67 @@
+body
+{
+  background-color: #150c1b;
+  color: #dddddd;
+}
+
+.result-div
+{
+  background-color:#4f2263;
+  padding: 0.05cm 0.2cm;
+  margin: 0.15cm 0cm;
+  border-radius: 0.2cm;
+}
+
+.result-needle
+{
+  color: limegreen;
+}
+
+.result-haystack
+{
+  color: #6a9df9;
+}
+
+.result-confidence
+{
+  background-color: #310844;
+  border-radius: 0.2cm;
+  padding: 0.1cm;
+  margin: 0.05cm;
+}
+
+.result-confidence.exact
+{
+  color: #3fef3f;
+  font-weight: bold;
+}
+
+.result-confidence.good
+{
+  color: #28c728;
+}
+
+.result-confidence.medium
+{
+  color: #eb8d12;
+}
+
+.result-component
+{
+  width: 3cm;
+}
+
+.label
+{
+  font-weight: bold;
+}
+
+textarea{
+  width: 6cm;
+  height: 300px;
+  margin: 0cm 1cm 0cm 0cm;
+}
+
+.flex-container {
+  display: flex;
+}
